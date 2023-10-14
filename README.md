@@ -1,2 +1,2 @@
 # Arthub
- Social Network for Artist and Art Colletionist
+ Community to discover talented artists and acquire exceptional artworks.
