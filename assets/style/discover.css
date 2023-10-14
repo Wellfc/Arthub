@@ -1,0 +1,377 @@
+@import "./reset.css";
+@import "./global.css";
+
+/* --------------------------------------------------------------- */
+/* ----------------------------MAIN------------------------------- */
+/* --------------------------------------------------------------- */
+
+.container-header {
+    position: relative;
+    width: 100%;
+    height: calc(45vh - 60px);
+    overflow: hidden;
+    background-image: url('../img/pexels-greta-hoffman-7859008.jpg');
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+}
+
+.content-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.2;
+    align-items: center;  
+}
+
+.content-header h1 {
+    font-size: 46px;
+    font-weight: 600;
+    color: var(--app-white);
+    letter-spacing: 0.4px;
+    line-height: 1.2;    
+}
+
+.content-header p {
+    margin-top: 30px;
+    font-weight: 600;
+    color: var(--app-white);
+    letter-spacing: 0.4px;
+    line-height: 1.2;    
+}
+
+.content-header a {
+    margin-top: 30px;
+    font-weight: 600;
+    color: var(--app-white);
+    letter-spacing: 0.4px;
+    line-height: 1.2;   
+    text-decoration: none; 
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.column {
+    flex: 0 1 auto;
+    width: calc(25% - 15px);
+    padding-bottom: calc(25% - 15px); 
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;   
+}
+
+.one { 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%), url('../img/featured-img1.jpg'); 
+    background-size: cover;
+    position: relative;
+}
+
+.two{ 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%),url('../img/featured-img2.jpg'); 
+    background-size: cover;
+}
+
+.three { 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%), url('../img/featured-img3.jpg'); 
+    background-size: cover; 
+}
+
+.four { 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%), url('../img/featured-img4.jpg'); 
+    background-size: cover; 
+}
+
+.five { 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%), url('../img/featured-img5.png'); 
+    background-size: cover; 
+}
+
+.six { 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%), url('../img/featured-img6.jpg'); 
+    background-size: cover; 
+}
+
+.seven { 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%), url('../img/featured-img7.jpg'); 
+    background-size: cover; 
+}
+
+.eight { 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%), url('../img/featured-img8.jpg'); 
+    background-size: cover; 
+}
+
+.nine { 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%), url('../img/featured-img9.png'); 
+    background-size: cover; 
+}
+
+.ten { 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%), url('../img/featured-img10.jpg'); 
+    background-size: cover; 
+}
+
+.eleven { 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%), url('../img/featured-img11.png'); 
+    background-size: cover; 
+}
+
+.twelve { 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%), url('../img/featured-img12.jpg'); 
+    background-size: cover; 
+}
+
+.thirteen { 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%), url('../img/featured-img13.jpg'); 
+    background-size: cover; 
+}
+
+.fourteen { 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%), url('../img/featured-img14.jpg'); 
+    background-size: cover; 
+}
+
+.fifteen { 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%), url('../img/featured-img15.png'); 
+    background-size: cover; 
+}
+
+.sixteen { 
+    background-color: var(--app-gray-background-bg);
+    background-image: linear-gradient(to bottom, transparent 75%, rgba(0, 0, 0, 0.5) 95%), url('../img/featured-img16.jpg'); 
+    background-size: cover; 
+}
+
+.one::after {
+    content: url('../img/user.png') " John Smith"; 
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.two::after {
+    content:url('../img/user.png') " Ana Silva";
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.three::after {
+    content:url('../img/user.png') " Priya Patel";
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.four::after {
+    content:url('../img/user.png') " Sarah Brown";
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.five::after {
+    content:url('../img/user.png') " Zhāng Mǐn";
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.six::after {
+    content:url('../img/user.png') " María López";
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.seven::after {
+    content:url('../img/user.png') " Leonid Kovalenko";
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.eight::after {
+    content:url('../img/user.png') " Maria Santos";
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.nine::after {
+    content:url('../img/user.png') " David Kim";
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.ten::after {
+    content:url('../img/user.png') " Mohamed Ali";
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.eleven::after {
+    content:url('../img/user.png') " Juan Martinez";
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.twelve::after {
+    content:url('../img/user.png') " Ivan Petrov";
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.thirteen::after {
+    content:url('../img/user.png') " Fatima Khan";
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.fourteen::after {
+    content:url('../img/user.png') " Helena Clark";
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.fifteen::after {
+    content:url('../img/user.png') " Pierre Dupont";
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.sixteen::after {
+    content:url('../img/user.png') " Zhang Wei";
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--app-white);
+    font-weight: 400; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.transparent-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer;
+    outline: none; 
+}
+
+.transparent-button:hover {
+   background-color: var(--app-dark-overlay);
+   mix-blend-mode:normal;
+   transition: background-color 0.3s ease-in-out;
+   color: var(--app-white);
+   font-weight: 400; 
+}
+
+.transparent-button:hover::before {
+  content: url(../img/zoom-64.png);
+  font-size: 100px; 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  margin-right: 8px; 
+  transition: opacity 1s ease-in-out; 
+}
+
+@media screen and (max-width: 960px) {
+    .column {
+        width: calc(50% - 10px);
+        padding-bottom: calc(50% - 10px)
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .column {
+        width: 100%;
+        padding-bottom: 100%; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen  {
+        width: 100%;
+        padding-bottom: 100%; 
+    }
+}

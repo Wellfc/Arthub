@@ -1,0 +1,60 @@
+@import "./reset.css";
+@import "./global.css";
+
+/* --------------------------------------------------------------- */
+/* ----------------------------MAIN------------------------------- */
+/* --------------------------------------------------------------- */
+
+.about-header {
+    height: calc(45vh - 60px);
+    justify-content:center;
+    align-items: center;
+    background-image: url('../img/hero-banner2.jpg');
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.entry-title {
+    font-size: 46px;
+    font-weight: 600;
+    color: var(--app-white);
+    letter-spacing: 0.4px;
+    line-height: 1.2;  
+}
+
+.one-about-content { 
+    background-color: none;
+}
+
+.two-art-exhibit { 
+    background-image: url('../img/art-exhibit.jpg');
+    background-size: cover;
+    background-position: center;
+    max-height: 500px;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.column {
+    flex: 1 0 auto;
+    width: 300px;
+    box-shadow: 1px 1px 2px rgb (0 0 0 / 0.1);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1080px) {
+    .column {
+        width: 100%;
+    }
+    .two-art-exhibit {
+        height: 300px;
+    }
+}

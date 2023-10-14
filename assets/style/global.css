@@ -1,0 +1,416 @@
+@charset "utf=8";
+
+/* --------------------------------------------------------------- */
+/* ---------------------------COLOR PALLETE----------------------- */
+/* --------------------------------------------------------------- */
+
+:root {
+    --app-light-blue-bg: #b7cfff;
+    --app-blue-bg: #8eadea;
+    --app-blue-bg: #628de3;
+    --app-dark-blue: #223f77;
+    --app-pink-bg: #edb7ed;
+    --app-medium-pink-bg: #a980a9;
+    --app-dark-blue-bg: #1c2230;
+    --app-light-gray-bg: #ababab;
+    --app-dark-gray-bg: #141414;
+    --app-gray-background-bg: #e9edf2;
+    --app-white: #fff;
+    --app-dark-overlay: rgb(20, 20, 20, 0.7);
+    --app-border-gray: #bdb8b8;
+}
+
+/* --------------------------------------------------------------- */
+/* ---------------------------/COLOR PALLETE---------------------- */
+/* --------------------------------------------------------------- */
+
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--app-white);
+    letter-spacing: 0.4px;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--app-dark-gray-bg);
+    letter-spacing: 0.4px;
+    line-height: 1.4;
+    margin-bottom: 24px;
+}
+
+p {
+    font-size:16px;
+    font-weight: 500;
+    color: var(--app-dark-gray-bg);
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+a {
+    color: var(--app-dark-gray-bg);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/*-------------SECTIONS BACKGROUND COLOR------------- */
+
+.white-background {
+    background-color: var(--app-white);
+    padding: 60px 0;
+}
+
+.gray-background {
+    background-color: var(--app-gray-background-bg);
+    padding: 60px 0;
+}
+
+/* --------------------------------------------------------------- */
+/* ---------------------------HEADER------------------------------ */
+/* --------------------------------------------------------------- */
+
+header {
+    background-color: var(--app-white);
+}
+
+.main-header {
+    width: 100%;
+    height: 60px;
+    justify-content:space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo h1 {
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--app-dark-gray-bg);
+    letter-spacing: 0.1px;
+    font-family: 'Playball';
+    line-height: 60px;
+}
+
+/*--------------------Navigation Menu-------------------*/
+
+nav {
+    flex: 5;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    line-height: 60px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: var(--app-dark-gray-bg);
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: var(--app-white);
+    background-color: var(--app-blue-bg);
+    line-height: 60px;
+}
+
+/*--------------Search Bar--------------*/
+
+.search-bar {
+    line-height: 60px;
+    flex: 1;
+}
+
+.search-bar input[type=text] {
+    width: 250px;
+    padding: 10px 0 10px 32px;
+    border: 1px rgb(255 255 255 / 0.15);
+    background: rgb(0 0 0 / 0.1) url(../img/search.png) no-repeat 10px 10px;
+    background-size: 18px;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.search-bar input[type=text]:focus {
+    border: 1px solid var(--app-blue-bg);
+}
+
+/*--------------Search Bar 2--------------*/
+.search-bar2 {
+    line-height: 60px;
+    flex: 1;
+}
+
+.search-bar2 input[type=text] {
+    width: 400px;
+    padding: 10px 0 10px 32px;
+    border: 1px rgb(255 255 255 / 0.15);
+    background: rgba(255, 255, 255, 0.9) url(../img/search.png) no-repeat 10px 10px;
+    background-size: 18px;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.search-bar input[type=text]:focus {
+    border: 1px solid var(--app-blue-bg);
+}
+
+/* Nav 800px and down */
+@media (max-width: 800px) {
+    .search-bar,
+    nav {
+        display: none;
+    }
+    .menu-toggle {
+        display: block; 
+        text-align: right; 
+        cursor:pointer;
+    }
+    .menu-toggle:hover {
+       color: var(--app-blue-bg);
+    }
+}
+
+@media (min-width: 801px) {
+    .menu-toggle {
+        display: none;
+    }
+}
+
+/* --------------------------------------------------------------- */
+/* ---------------------------BUTTONS----------------------------- */
+/* --------------------------------------------------------------- */
+
+.btn p {
+    margin: 0;
+}
+
+/*------------BUTTON BLUE------------- */
+
+
+.btn-blue a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 25px 10px 25px;
+    align-items: center;
+    background-color: var(--app-blue-bg);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--app-white);
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn-blue a:hover {
+    margin-right: 10px;
+    padding: 10px 25px 10px 25px;
+    background-color: var(--app-dark-blue);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--app-white);
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*------------BUTTON FORM------------ */
+
+
+.btn-form {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 25px 10px 25px;
+    align-items: center;
+    background-color: var(--app-blue-bg);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--app-white);
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn-form:hover {
+    margin-right: 10px;
+    padding: 10px 25px 10px 25px;
+    background-color: var(--app-dark-blue);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--app-white);
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* --------------------------------------------------------------- */
+/* ---------------------------FOOTER------------------------------ */
+/* --------------------------------------------------------------- */
+
+footer {
+    background-color: var(--app-dark-blue);
+}
+
+.myfooter {
+    width: 100%;
+    height: 250px;
+    justify-content:space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.footer-col-1 {
+    width: 40%;
+}
+
+.arthub-goal {
+    width: 100%;
+}
+
+.arthub-goal p {
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 16px;
+    color: var(--app-white);
+    letter-spacing: 0.2px;
+}
+
+.footer-col-2 { 
+    display: flex;
+    width: 50%;
+    color: var(--app-light-blue-bg);
+    line-height: 1.5;
+    justify-content: space-around;
+}
+
+.footer-col-2 div {
+    margin: 0 10px;
+}
+
+.footer-col-2 h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 2.5;
+    letter-spacing: 0.2px;
+}
+
+.footer-col-2 li {
+    list-style-position: inside;
+}
+
+.footer-col-2 a {
+    text-decoration: none;
+    color: var(--app-white);
+}
+
+/* Footer Copyright Styling */
+
+.copyright {
+    display: flex;
+    height: 90%;
+    width: 15%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.copyright p {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--app-white);
+    letter-spacing: 0.2px;
+    
+}
+
+/* Footer Icons Styling */
+
+.icons a {
+    text-decoration: none;
+    color: var(--app-white);
+}
+
+.social {
+    display: inline;
+    margin-right: 20px;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .vertical-switch {
+        flex-direction: column;
+        height: 930px;
+    }
+
+    .myfooter {
+        flex-direction: column;
+        height: 350px;
+        justify-content: center;
+    }
+
+    .footer-col-2 {
+        height: 300px;
+    }
+
+    .copyright {
+        display: flex;
+        height: 100%;
+        width: 30%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .myfooter {
+        flex-direction: column;
+        height: 500px;
+        justify-content: center;
+    }
+
+    .footer-col-2 {
+        flex-direction: column;
+        height: 900px;
+    }
+
+    .copyright {
+        display: flex;
+        height: 100%;
+        width: 40%;
+        align-items: flex-start;
+        justify-content: left;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .myfooter {
+        height: 500px;
+    }
+
+    .footer-col-1, .footer-col-2, .copyright {
+        width: 90%;
+    }
+}

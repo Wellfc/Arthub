@@ -1,0 +1,126 @@
+@import "./reset.css";
+@import "./global.css";
+
+
+/* --------------------------------------------------------------- */
+/* ----------------------------MAIN------------------------------- */
+/* --------------------------------------------------------------- */
+
+
+.content-header {
+    height: calc(45vh - 60px);
+    justify-content:center;
+    align-items: center;
+    background-image: url('../img/pexels-julia-avamotive-1076339.jpg');
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.entry-title {
+    font-size: 46px;
+    font-weight: 600;
+    color: var(--app-white);
+    letter-spacing: 0.4px;
+    line-height: 1.2;  
+}
+
+.column {
+    flex: 1 0 auto;
+    box-shadow: 1px 1px 2px rgb (0 0 0 / 0.1);
+    border-radius: 5px;
+}
+
+.one-contact-content { 
+    background-color: none;
+}
+
+h2 {
+    align-items: left;
+    text-align: left;
+}
+
+.two-google-maps { 
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+@media screen and (max-width: 760px) {
+    .column {
+        width: 100%;
+    }
+    .two-google-maps {
+        height: 400px;
+    }
+}
+
+/* ----------------Contact us: Form -------------------------*/
+
+.form {
+    width: 100%;
+    height:auto;
+    background-color: transparent; 
+    border-radius: 5px;
+}
+
+.input-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    color: var(--app-dark-blue-bg);
+    font-weight: bold;
+}
+
+.input-row label {
+    margin-right: 10px;
+}
+
+input {
+    height: 46px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-color: var(--app-blue-bg);
+    border: 1px solid var(--app-border-gray);
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: var(--app-white);
+    transition: all 0.25s ease-in-out;
+}
+
+textarea {
+    min-height: 100px; 
+    resize: none;
+    height: auto;
+    border: 1px solid  var(--app-border-gray);
+    border-radius: 5px;
+    font-size: 16px;
+    color: var(--app-dark-blue-bg);
+}
+
+input:focus, textarea:focus {
+    border-color: var(--app-blue-bg);
+}
+
+.submit-button-row {
+    text-align: left;
+    width: 100%;
+}
+
