@@ -140,11 +140,11 @@ _CSS_
 
 ## Screenshots
 
-[_Header and footer_](#header-and-footer)
+**_Header and footer_**
 
 ![Arthub Header and Footer.jpg](https://github.com/Wellfc/Arthub/blob/main/assets/img/Arthub%20Header%20and%20Footer.jpg)
 
-[_About page_](#about-page)
+**_About page_**
 
 ![Arthub About Page.jpg](https://github.com/Wellfc/Arthub/blob/main/assets/img/Arthub%20About%20Page.jpg)
 
