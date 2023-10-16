@@ -1,3 +1,14 @@
+# Table of Contents
+1. [Introduction][introduction]
+2. [Overview][Overview]
+3. [Website][Website]
+4. [Considerations and Decisions][consideration]
+5. [Challenges][Challenges]
+6. [Acknowledgments][Acknowledgments]
+7. [Improvements]
+8. [Code Snippets][Code]
+9. [Screenshots][Screenshots]
+
 # Arthub
  Arthub is an innovative online art gallery that serves as a platform for artists worldwide to showcase their artwork. 
  It offers a curated collection of diverse art pieces, ranging from contemporary paintings to digital masterpieces. 
@@ -5,8 +16,8 @@
 
 ## Overview
 
-We created Arthub as our final project for the Introduction to Web Development course to apply the knowledge and skills we acquired. 
-We aimed to develop a platform that serves artists by providing a space to showcase their creativity and art enthusiasts by offering a place to discover and collect artwork. 
+As a team, we created Arthub as our final project for the Introduction to Web Development course to apply the knowledge and skills we acquired. 
+I specifically contributed by making the header, footer, and the about page to ensure a cohesive and well-structured user interface. 
 Arthub was designed for a broad audience, including both established art collectors and those new to the art scene.
 
 ## Website
@@ -30,8 +41,10 @@ Developing Arthub as a team project was both challenging and interesting. We fou
 I would like to acknowledge the following individuals for their contributions:
 
 - Andre Murilo Cantuaria Muniz:
+
   Created the home and the gallery page. Contributed to the overall visual design of the website.
 - Rosa Maria Nunez Rivera:
+
   Created the contact page.
 
 ## Improvements
@@ -127,11 +140,21 @@ _CSS_
 
 ## Screenshots
 
-_Header and footer_
+[_Header and footer_](#header-and-footer)
 
 ![Arthub Header and Footer.jpg](https://github.com/Wellfc/Arthub/blob/main/assets/img/Arthub%20Header%20and%20Footer.jpg)
 
-_About page_
+[_About page_](#about-page)
 
 ![Arthub About Page.jpg](https://github.com/Wellfc/Arthub/blob/main/assets/img/Arthub%20About%20Page.jpg)
 
+
+[introduction]: https://github.com/Wellfc/Arthub#arthub
+[Overview]: https://github.com/Wellfc/Arthub#overview
+[Website]: https://github.com/Wellfc/Arthub#website
+[consideration]: https://github.com/Wellfc/Arthub#considerations-and-decisions
+[Challenges]: https://github.com/Wellfc/Arthub#challenges
+[Acknowledgments]: https://github.com/Wellfc/Arthub#acknowledgments
+[Improvements]: https://github.com/Wellfc/Arthub#improvements
+[Code]: https://github.com/Wellfc/Arthub#code-snippets
+[Screenshots]: https://github.com/Wellfc/Arthub#screenshots
